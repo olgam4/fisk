@@ -1,0 +1,4 @@
+(executable
+ (public_name iirc)
+ (name main)
+ (libraries iirc dream dream-html))

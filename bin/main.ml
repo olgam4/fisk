@@ -7,7 +7,7 @@ let index children =
   html [lang "en"] [
     head [] [
       comment "unocss";
-      script [src "https://cdn.jsdelivr.net/npm/@unocss/runtime/core.global.js"] "";
+      script [src "https://cdn.jsdelivr.net/npm/@unocss/runtime/uno.global.js"] "";
       link [rel "stylesheet"; href "https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css"];
 
       comment "custom style";

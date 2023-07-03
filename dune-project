@@ -1,6 +1,6 @@
 (lang dune 3.9)
 
-(name iirc)
+(name fisk)
 
 (generate_opam_files true)
 
@@ -14,6 +14,6 @@
 (documentation https://url/to/documentation)
 
 (package
- (name iirc)
+ (name fisk)
  (synopsis "A chat app")
  (depends ocaml dune dream dream-html))

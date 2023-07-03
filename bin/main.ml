@@ -7,7 +7,7 @@ let index children =
   html [lang "en"] [
     head [] [
       comment "unocss";
-      script [src "https://cdn.jsdelivr.net/npm/@unocss/runtime"] "";
+      script [src "https://cdn.jsdelivr.net/npm/@unocss/runtime/core.global.js"] "";
       link [rel "stylesheet"; href "https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css"];
 
       comment "custom style";
@@ -23,7 +23,9 @@ let index children =
 
 let hello who =
   index [
-    p [hs "on click toggle .bg-yellow on me"] [txt "hello %s" who];
+    div [class_ ""] [
+      p [__ "on click toggle .bg-yellow on me"] [txt "hello %s" who];
+    ]
   ]
 ;;
 

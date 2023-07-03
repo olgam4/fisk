@@ -1,4 +1,4 @@
 (executable
- (public_name iirc)
+ (public_name fisk)
  (name main)
- (libraries iirc dream dream-html))
+ (libraries fisk dream dream-html))

@@ -9,6 +9,7 @@
 ## Reactivity
 [htmx](https://htmx.org/)
 [_hyperscript](https://hyperscript.org/)
+[alpine.js](https://alpinejs.dev/)
 
 ## Styles
 [Unocss](https://unocss.dev/)

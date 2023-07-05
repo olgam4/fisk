@@ -1,5 +1,5 @@
 # Start from the official OCaml image
-FROM ocaml/opam:2.0.0
+FROM ocaml/opam:ubuntu-20.04-ocaml-4.06
 
 # Set up a working directory
 WORKDIR /app

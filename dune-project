@@ -15,5 +15,5 @@
 
 (package
  (name fisk)
- (synopsis "A chat app")
+ (synopsis "A cool template")
  (depends ocaml dune dream dream-html))

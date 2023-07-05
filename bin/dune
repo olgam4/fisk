@@ -1,4 +1,5 @@
 (executable
  (public_name fisk)
  (name main)
- (libraries fisk dream dream-html))
+ (libraries fisk dream dream-html)
+ (preprocess (pps lwt_ppx)))

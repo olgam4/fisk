@@ -13,3 +13,6 @@
 
 ## Styles
 [Unocss](https://unocss.dev/)
+
+## Icones
+[Iconify](https://iconify.design/)
